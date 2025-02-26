@@ -28,4 +28,7 @@ class OrderManager {
     public void shutdown() {
         executor.shutdown();
     }
+    public void processOrder() {
+        System.out.println("Processing order - Modified by feature-branch2");
+    }
 }
